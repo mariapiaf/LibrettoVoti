@@ -24,6 +24,17 @@ public class TestLibretto { // voglio tesatre i metodi della classe Libretto
 		
 		Libretto librettoventicinque = libretto.votiUguali(25);
 		System.out.println(librettoventicinque);
+	
+		Voto analisi = libretto.ricercaCorso("Analisi 1");
+		System.out.println(analisi);
+		Voto analisi3 = libretto.ricercaCorso("Analisi 3");
+		System.out.println(analisi3);
+		
+		Voto chimica = libretto.ricercaCorso("Chimica");
+		
+		
+		
+	
 	}
 	
 }
